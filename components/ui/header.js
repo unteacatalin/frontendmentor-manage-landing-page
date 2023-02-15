@@ -48,8 +48,8 @@ const useStyles = makeStyles()((theme) => {
       margin: 0,
       height: '2rem',
       width: '12rem',
-      minHeight: '2rem',
-      minWidth: '12rem',
+      maxHeight: '2rem',
+      maxWidth: '12rem',
       [theme.breakpoints.down('lg')]: {
         marginRight: 'auto',
         paddingTop: '0.3rem',
