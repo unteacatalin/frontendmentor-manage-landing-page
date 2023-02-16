@@ -1,6 +1,11 @@
 function LogoHeader({ color }) {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 146 24'>
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='192'
+      height='32'
+      viewBox='0 0 146 24'
+    >
       <g fill='none' fillRule='evenodd'>
         <path
           fill={color || '#242D52'}
